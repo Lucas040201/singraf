@@ -1,0 +1,263 @@
+.slider-item {
+    width: 100%;
+    max-height: 55rem;
+}
+
+.associe-title {
+    font-size: 3.6rem;
+    color: #0D4A82;
+    text-transform: uppercase;
+    padding: 5.2rem 0 3rem 0;
+    text-align: center;
+}
+
+.associe-text {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    color: #202020;
+    padding-bottom: 4.5rem;
+}
+
+.associe-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 9.5rem;
+}
+
+.associe-cards-left {
+    flex: 1 1 30rem;
+    max-width: 44.5rem;
+}
+
+.associe-cards-right {
+    flex: 1 1 30rem;
+    max-width: 44.5rem;
+}
+
+.associe-bg-image {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    opacity: 0.5;
+    max-height: 32.5rem;
+}
+
+.associe-cards-images {
+    height: 32.5rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.associe-img-logo {
+    position: relative;
+    padding-top: 6rem;
+    z-index: 1;
+}
+
+.associe-card-text {
+    position: relative;
+    background-color: #FA5B37;
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.associe-card-parag {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.associe {
+    padding-bottom: 8rem;
+}
+
+.noticias-title {
+    color: #C22525;
+    font-size: 3.6rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.noticias-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.noticias-box-title {
+    background-color: #4299E9;
+    color: #fff;
+    font-size: 1.4rem;
+    max-width: 32rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3rem;
+}
+
+.noticia-items {
+    flex: 1 1 30rem;
+    max-width: 35rem;
+}
+
+.noticias-post-title {
+    font-size: 2rem;
+    color: #202020;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.noticias {
+    padding-bottom: 10rem;
+}
+
+.noticias-see {
+    color: #FA5B37;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banco-emp {
+    display: flex;
+}
+
+.banco-emp-left {
+    flex: 1 1 30rem;
+    background: linear-gradient(30deg, #0A023D, transparent), url(../../images/home/Intersect-left.png);
+}
+
+.banco-emp-right {
+    flex: 1 1 30rem;
+    background: linear-gradient(30deg, #0A023D, transparent), url(../../images/home/Intersect-right.png);
+}
+
+.banco-emp-title {
+    color: #FBB80D;
+    font-size: 3.6rem;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.banco-emp-icon-box {
+    display: flex;
+    justify-content: center;
+}
+
+.banco-emp-type {
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.banco-emp-login {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 2.5rem;
+}
+
+.banco-emp-search {
+    background-color: #FA5B37;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    max-width: 34.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.banco-emp-sing-up {
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 2.6rem;
+    padding-bottom: 3.2rem;
+}
+
+.eventos-title {
+    text-align: center;
+    font-size: 3.6rem;
+    color: #228B78;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.eventos-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.evento-header {
+    background-color: #FA5B37;
+    width: 100%;
+    padding: 1.5rem 2rem;
+}
+
+.evento-item {
+    max-width: 44.5rem;
+    flex: 1 1 30rem;
+    padding-bottom: 2rem;
+    background-color: #EBF2F8;
+}
+
+.evento-date {
+    color: #fff;
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: flex-end;
+    padding-right: 2rem;
+}
+
+.evento-calendar {
+    padding-right: 1rem;
+}
+
+.evento-time {
+    color: #fff;
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.evento-clock {
+    padding-right: 1rem;
+}
+
+.evento-link {
+    color: #202020;
+    font-size: 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3.5rem 0 3rem 2rem;
+}
+
+.evento-see {
+    color: #FA5B37;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.eventos {
+    padding-bottom: 10rem;
+}
