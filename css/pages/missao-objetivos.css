@@ -45,3 +45,15 @@
 .frame-conteudo-mobile {
     display: none;
 }
+
+/* mobile */
+
+@media (max-width: 900px) {
+    .frame-conteudo {
+        display: none;
+    }
+
+    .frame-conteudo-mobile {
+        display: block;
+    }
+}
