@@ -56,4 +56,29 @@
     .frame-conteudo-mobile {
         display: block;
     }
+
+    .frame-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 300px;
+        margin: 0 auto;
+
+        padding: 50px 0;
+    }
+
+    .frame-box:not(:last-of-type) {
+        border-bottom: 1px solid #1890FF;
+    }
+
+    .frame-box img {
+        max-width: 50px;
+    }
+
+    .frame-box p {
+        max-width: 200px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+    }
 }
