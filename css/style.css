@@ -1,5 +1,11 @@
 @import './reset/normalize.css';
 @import './reset/geral.css';
+
+/* parts */
 @import './reset/header.css';
 @import './reset/footer.css';
+@import './reset/aside.css';
+
+/* páginas */
 @import './pages/home.css';
+@import './pages/missao-objetivos.css';

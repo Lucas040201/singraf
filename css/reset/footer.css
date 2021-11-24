@@ -6,6 +6,7 @@
 .news-text {
     color: #fff;
     font-size: 1.6rem;
+    font-weight: 700;
     max-width: 43rem;
 }
 
@@ -13,8 +14,9 @@
     width: 33.3rem;
     height: 4.5rem;
     font-size: 1.4rem;
+    font-weight: 700;
     padding-left: 1.7rem;
-    border-color: #635E5E;
+    border: 1px solid #635E5E;
 }
 
 .news-submit {
@@ -25,7 +27,7 @@
     width: 100%;
     max-width: 16rem;
     height: 4rem;
-    font-weight: bold;
+    font-weight: 800;
     margin-left: 3.5rem;
 }
 
@@ -47,11 +49,13 @@
 
 p.footer-contact {
     font-size: 1.6rem;
+    font-weight: 700;
     padding-bottom: 2rem;
 }
 
 a.footer-phone {
     font-size: 3rem;
+    font-weight: 600;
     color: #FA5B37;
     text-decoration: none;
     padding-right: 3.2rem;
@@ -60,14 +64,27 @@ a.footer-phone {
 a.footer-email {
     color: #FA5B37;
     font-size: 2.4rem;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 p.footer-location {
     padding-top: 4.5rem;
     font-size: 1.4rem;
+    font-weight: 700;
     display: flex;
     align-items: center;
+}
+
+p.footer-location a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #202020;
+}
+
+p.footer-location a:visited {
+    text-decoration: none;
+    color: #202020;
 }
 
 .footer-left {
@@ -92,7 +109,7 @@ p.footer-location {
 
 p.footer-name {
     font-size: 1.4rem;
-    font-weight: bold;
+    font-weight: 700;
     padding-bottom: 1.7rem;
 }
 
