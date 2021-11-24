@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: 800;
 }
 
 html, body {
     font-size: 62.5%;
+    font-family: 'Martel', serif;
+    font-weight: 800;
 }
 
 .wrapper {

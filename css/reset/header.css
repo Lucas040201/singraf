@@ -18,14 +18,12 @@
 
 .header-brand-text {
     font-size: 1.8rem;
-    font-weight: bold;
 }
 
 .header-login {
     text-decoration: none;
     color: #fff;
     background-color: #FA5B37;
-    font-weight: bold;
     font-size: 1.8rem;
     display: flex;
     width: 14rem;
@@ -86,6 +84,7 @@
 
 .nav-item {
     font-size: 1.8rem;
+    font-weight: 700;
     text-transform: capitalize;
     color: #202020;
     text-decoration: none;
@@ -125,6 +124,7 @@
 a.drop-down-link {
     color: #fff;
     font-size: 1.4rem;
+    font-weight: 700;
     text-decoration: none;
     display: block;
     width: 100%;
