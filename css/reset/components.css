@@ -1,0 +1,44 @@
+/* Inputs */
+
+.input {
+    height: 4.4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.4rem 1.7rem;
+    border: 1px solid #4299E9;
+    outline: none;
+}
+
+.input-full {
+    flex: 1 0 100%;
+}
+
+.input-big {
+    flex: 1 0 54rem;
+}
+
+.input-half {
+    flex: 1 0 44.5rem;
+}
+
+.input-medium {
+    flex: 1 0 35rem;
+}
+
+.input-small {
+    flex: 1 0 25.5rem;
+}
+
+.input-smallest {
+    flex: 1 0 16rem;
+}
+
+@media (max-width: 900px) {
+    .input-big {
+        flex: 1 0 100%;
+    }
+
+    .input-small, .input-smallest, .input-half, .input-medium {
+        flex: 1 0 100%;
+    }
+}
