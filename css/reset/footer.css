@@ -26,9 +26,10 @@
     font-size: 1.6rem;
     width: 100%;
     max-width: 16rem;
-    height: 4rem;
+    height: 4.5rem;
     font-weight: 800;
     margin-left: 3.5rem;
+    cursor: pointer;
 }
 
 .news-form {
@@ -217,5 +218,16 @@ a.footer-social-media {
 
     .footer-social-mobile a:not(:last-of-type) {
         margin-right: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .news-form {
+        flex-direction: column;
+    }
+
+    .news-submit {
+        margin: 2rem 0;
+        max-width: 100%;
     }
 }
