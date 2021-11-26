@@ -5,6 +5,7 @@
 @import './reset/header.css';
 @import './reset/footer.css';
 @import './reset/aside.css';
+@import './reset/components.css';
 
 /* páginas */
 @import './pages/home.css';
@@ -13,3 +14,4 @@
 @import './pages/associe-se.css';
 @import './pages/historia.css';
 @import './pages/grupo-empresarial.css';
+@import './pages/seccional.css';
