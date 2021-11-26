@@ -29,6 +29,10 @@
     right: 7.5rem;
 }
 
-.aside-large {
-    
+.aside-galeria {
+    background-image: url(/images/sides/aside-galeria.png);
+}
+
+.aside-apresentacoes {
+    background-image: url(/images/sides/aside-apresentacoes.png);
 }
