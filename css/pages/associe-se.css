@@ -12,40 +12,8 @@
     color: #202020;
 }
 
-.vantagens {
-    background-color: #e4f2ff;
-    padding: 3.5rem 0 4.7rem;
-    margin-bottom: 5.6rem;
-}
-
-.vantagens-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 111.5rem;
-    width: 90%;
-    margin: 0 auto;
-    row-gap: 6.4rem;
-}
-
-.vantagens-title {
-    color: #FA5B37;
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.vantagens-item {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.vantagens .blue-section-item {
     flex: 1 0 20%;
-}
-
-.vantagens-item span {
-    font-size: 1.6rem;
-    margin-top: 1.6rem;
 }
 
 .beneficios-btn {
@@ -167,7 +135,7 @@
 }
 
 @media (max-width: 900px) {
-    .vantagens-item {
+    .blue-section-item {
         flex: 1 0 50%;
     }
 

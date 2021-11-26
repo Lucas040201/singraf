@@ -74,54 +74,6 @@
     padding-bottom: 8rem;
 }
 
-.noticias-title {
-    color: #C22525;
-    font-size: 3.6rem;
-    padding-bottom: 3rem;
-    text-align: center;
-}
-
-.noticias-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.noticias-box-title {
-    background-color: #4299E9;
-    color: #fff;
-    font-size: 1.4rem;
-    max-width: 32rem;
-    padding: 1rem;
-    width: 100%;
-    max-width: 35rem;
-    margin-bottom: 3rem;
-}
-
-.noticia-items {
-    flex: 1 1 30rem;
-    max-width: 35rem;
-}
-
-.noticias-post-title {
-    font-size: 2rem;
-    color: #202020;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 1rem;
-}
-
-.noticias {
-    padding-bottom: 10rem;
-}
-
-.noticias-see {
-    color: #FA5B37;
-    font-size: 1.4rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
 .banco-emp {
     display: flex;
 }
@@ -187,76 +139,6 @@
     padding-bottom: 3.2rem;
 }
 
-.eventos-title {
-    text-align: center;
-    font-size: 3.6rem;
-    color: #228B78;
-    padding-top: 6rem;
-    padding-bottom: 4rem;
-}
-
-.eventos-box {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.evento-header {
-    background-color: #FA5B37;
-    width: 100%;
-    padding: 1.5rem 2rem;
-}
-
-.evento-item {
-    max-width: 44.5rem;
-    flex: 1 1 30rem;
-    padding-bottom: 2rem;
-    background-color: #EBF2F8;
-}
-
-.evento-date {
-    color: #fff;
-    font-size: 2rem;
-    display: inline-flex;
-    align-items: flex-end;
-    padding-right: 2rem;
-}
-
-.evento-calendar {
-    padding-right: 1rem;
-}
-
-.evento-time {
-    color: #fff;
-    font-size: 2rem;
-    display: inline-flex;
-    align-items: flex-end;
-}
-
-.evento-clock {
-    padding-right: 1rem;
-}
-
-.evento-link {
-    color: #202020;
-    font-size: 1.8rem;
-    text-decoration: none;
-    display: inline-block;
-    margin: 3.5rem 0 3rem 2rem;
-}
-
-.evento-see {
-    color: #FA5B37;
-    font-size: 1.4rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-left: 2rem;
-}
-
-.eventos {
-    padding-bottom: 10rem;
-}
-
-
 .tv-title {
     color: #6C288C;
     font-size: 3.6rem;
@@ -319,7 +201,7 @@
     width: 100%;
     max-width: 20rem;
     text-align: center;
-    transition: 1s all;
+    transition: .3s all;
 }
 
 .boxes:hover .box-text {
@@ -333,7 +215,7 @@
     height: 0.1rem;
     margin: 1.5rem auto 0 auto;
     background-color: #FCCF00;
-    transition: 1s all;
+    transition: .3s all;
     opacity: 0;
 }
 
