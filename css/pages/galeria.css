@@ -1,4 +1,11 @@
-.galeria {
+
+
+/* Modal.ga
+
+.modal {
+    width: 84.58%;
+
+}leria { */
     display: flex;
     flex-wrap: wrap;
     column-gap: 3rem;
@@ -56,4 +63,58 @@
         display: flex;
         justify-content: center;
     }
+}
+
+/* Modal */
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 120rem;
+    width: 100%;
+    max-height: 90vh;
+    background-color: rgba(18, 48, 77, .9);
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #fff;
+    
+    z-index: 1;
+}
+
+.modal-close {
+    position: absolute;
+    top: 4.4rem;
+    right: 4.5rem;
+    cursor: pointer;
+}
+
+.modal h3 {
+    margin: 5.3rem auto 4.4rem;
+}
+
+.modal-slider {
+    width: 84.58%;
+}
+
+.modal-slider figure{
+    margin: 0;
+}
+
+.modal-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-paginacao {
+    margin: 3.7rem auto 3.6rem;
 }
