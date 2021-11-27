@@ -37,7 +37,7 @@
     background-image: url(/images/sides/aside-apresentacoes.png);
 }
 
-.aside-apresentacoes {
+.aside-fale-conosco {
     background-image: url(/images/sides/aside-fale-conosco.png);
 }
 
@@ -47,4 +47,12 @@
 
 .aside-juridica {
     background-image: url(/images/sides/aside-juridica.png);
+}
+
+.aside-comunicacao {
+    background-image: url(/images/sides/aside-comunicacao.png);
+}
+
+.aside-faq {
+    background-image: url(/images/sides/aside-faq.png);
 }
