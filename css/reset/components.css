@@ -211,6 +211,10 @@
     background-color: #FA5B37;
 }
 
+.input-anos::before {
+    background-color: #FA5B37;
+}
+
 .input-anos .input {
     border-color: #FA5B37;
     font-family: 'Raleway', sans-serif;
