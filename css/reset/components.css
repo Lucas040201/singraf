@@ -130,6 +130,7 @@
     height: 4.4rem;
     display: block;
     pointer-events: none;
+    z-index: 2;
 }
 
 .input-select::after {
@@ -144,6 +145,7 @@
     border: 1px solid #fff;
     border-width: 0 .1rem .1rem 0;
     transform: rotate(45deg);
+    z-index: 3;
 }
 
 .input-textarea {
@@ -152,6 +154,37 @@
     max-height: 18rem;
     height: 100%;
 }
+
+.info-general-option-checkbox {
+    border: 0.4rem solid #FA5B37;
+    border-radius: 5rem;
+    width: 6rem;
+    height: 3.75rem;
+    display: block;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.info-general-option-checkbox::after {
+    content: '';
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(128, 117, 117, .5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.5rem;
+    transition: .3s all;
+}
+
+.info-general-option-checkbox:checked::after {
+    background-color: #FA5B37;
+    left: 2.5rem;
+}
+
 
 .header-input {
     display: flex;
