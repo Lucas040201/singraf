@@ -15,6 +15,9 @@
 .vantagens .blue-section-item {
     flex: 1 0 20%;
 }
+.vantagens-sindigraf .blue-section-item {
+    flex: 1 0 33.33%;
+}
 
 .beneficios-btn {
     max-width: 92rem;
@@ -136,7 +139,7 @@
 
 @media (max-width: 900px) {
     .blue-section-item {
-        flex: 1 0 50%;
+        flex: 1 0 50% !important;
     }
 
     .beneficios-box {
