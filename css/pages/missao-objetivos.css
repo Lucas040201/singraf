@@ -50,4 +50,27 @@
         font-weight: 700;
         font-size: 15px;
     }
-} 
+}
+
+/* Sindrigraf */
+
+.missao-objetivos-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.blue-section-sindigraf {
+    margin: 10.9rem 0 18.7rem;
+}
+
+.blue-section-sindigraf img {
+    margin: 4.9rem auto 0;
+}
+
+.blue-section-sindigraf p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    max-width: 77.5rem;
+    margin: 4.1rem auto 3rem;
+}

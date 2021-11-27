@@ -26,6 +26,14 @@ html, body {
     margin: 0 auto;
 }
 
+.only-desktop {
+    display: block;
+}
+
+.only-mobile {
+    display: none;
+}
+
 @media (max-width: 1280px) {
     html, body {
         font-size: 50%;
@@ -35,5 +43,13 @@ html, body {
 @media (max-width: 900px) {
     .wrapper {
         max-width: 86.41%;
+    }
+
+    .only-desktop {
+        display: none;
+    }
+
+    .only-mobile {
+        display: block;
     }
 }
