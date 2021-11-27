@@ -68,3 +68,14 @@
     color: #202020;
     padding-bottom: 2rem;
 }
+
+h3.new-password {
+    font-size: 3rem;
+    color: #FA5B37;
+    text-align: center;
+    padding-bottom: 4.5rem;
+}
+
+p.required-fields {
+    font-size: 1.2rem;
+}
