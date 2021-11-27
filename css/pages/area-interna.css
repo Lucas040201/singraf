@@ -1,20 +1,20 @@
-section.menu-cards.wrapper {
+.menu-cards.wrapper {
     padding-bottom: 20rem;
 }
-h2.people-name {
+.people-name {
     color: #FA5B37;
     font-size: 3rem;
     text-align: center;
     padding: 9rem 0 2rem 0;
 }
 
-p.menu-cards-text {
+.menu-cards-text {
     font-size: 1.8rem;
     text-align: center;
     padding-bottom: 7.5rem;
 }
 
-a.menu-cards-card {
+.menu-cards-card {
     display: block;
     max-width: 35rem;
     width: 100%;
@@ -32,27 +32,27 @@ a.menu-cards-card {
     padding-bottom: 5rem;
 }
 
-a.menu-cards-card:not(:nth-child(3n)) {
+.menu-cards-card:not(:nth-child(3n)) {
     margin-right: 3rem;
 }
 
-span.menu-cards-text-card {
+.menu-cards-text-card {
     display: block;
     text-align: center;
     padding-top: 2rem;
 }
 
-figure.menu-cards-container-img {
+.menu-cards-container-img {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
 }
 
-img.menu-cards-img {
+.menu-cards-img {
     max-width: 10rem;
 }
 
-a.area-interna-sair {
+.area-interna-sair {
     background-color: #FA5B37;
     color: #fff;
     text-decoration: none;
