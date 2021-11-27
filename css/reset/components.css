@@ -445,7 +445,7 @@
 }
 
 .paginacao-numeros .paginacao-numero--active {
-    color: #FA5B37;
+    color: #FA5B37; 
     box-shadow: inset 0px 0px 0px 1px #FA5B37;
     border-radius: .2rem;
 }
