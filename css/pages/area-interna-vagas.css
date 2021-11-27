@@ -195,3 +195,12 @@ a.opportunity-complete {
 aside.side-menu.candidates {
     max-height: 105rem;
 }
+
+.opportunity-box.fav {
+    max-width: 73rem;
+    margin: 0 auto;
+}
+
+.opportunity-box {
+    padding-bottom: 15rem;
+}
