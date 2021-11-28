@@ -172,6 +172,7 @@
     width: 3.2rem;
     height: 3.2rem;
     background-image: url(../../images/icons/calendario-icon.svg);
+    background-size: contain;
     background-color: #fff;
     z-index: 1;
 }
@@ -258,6 +259,10 @@
 
     .header-input .input-anos {
         position: relative;
+    }
+
+    .input-date {
+        max-width: 50%;
     }
 }
 

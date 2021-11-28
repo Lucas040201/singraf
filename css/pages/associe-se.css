@@ -135,6 +135,9 @@
 }
 
 @media (max-width: 900px) {
+    .vantagens .blue-section-item {
+        flex: 1 0 50%;
+    }
     .blue-section-item {
         flex: 1 0 50%;
     }
