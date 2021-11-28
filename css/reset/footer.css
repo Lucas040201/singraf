@@ -17,6 +17,7 @@
     font-weight: 700;
     padding-left: 1.7rem;
     border: 1px solid #635E5E;
+    outline: none;
 }
 
 .news-submit {
