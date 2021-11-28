@@ -74,16 +74,18 @@ form.small-form {
 }
 
 @media(max-width: 768px) {
+    .register-double-input {
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
+
     .register-container.wrapper {
         padding: 0 0 5rem;
     }
     
-    .input-select.input-size {
-        max-width: 40rem;
-    }
-
-    .input-text {
-        max-width: 40rem;
+    .input-select.input-size, .input-text, .input-date {
+        max-width: 100%;
+        flex: 1;
     }
 
     .register-title {

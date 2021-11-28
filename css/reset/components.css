@@ -155,6 +155,28 @@
     height: 100%;
 }
 
+.input-date {
+    flex: 1 0 44.5rem;
+    max-width: 44.5rem;
+    position: relative;
+}
+
+.input-date::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1.7rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    width: 3.2rem;
+    height: 3.2rem;
+    background-image: url(../../images/icons/calendario-icon.svg);
+    background-size: contain;
+    background-color: #fff;
+    z-index: 1;
+}
+
 .info-general-option-checkbox {
     border: 0.4rem solid #FA5B37;
     border-radius: 5rem;
@@ -237,6 +259,10 @@
 
     .header-input .input-anos {
         position: relative;
+    }
+
+    .input-date {
+        max-width: 50%;
     }
 }
 
@@ -485,6 +511,11 @@
     color: #FA5B37; 
     box-shadow: inset 0px 0px 0px 1px #FA5B37;
     border-radius: .2rem;
+}
+
+.paginacao-numeros-azul .paginacao-numero--active {
+    color: #1890FF;
+    box-shadow: inset 0px 0px 0px 1px #1890FF;
 }
 
 .logged-modal-box {
