@@ -575,3 +575,26 @@
     background-color: #FA5B37;
     font-size: 1.8rem;
 }
+
+
+@media(max-width: 426px) {
+    p.logged-modal-text.question {
+        padding-left: 3rem;
+    }
+    
+    form.logged-modal-form {
+        padding-left: 3rem;
+    }
+    
+    .logged-modal-box {
+        max-height: 60rem;
+    }
+    
+    span.modal-form-label-checkbox {
+        font-size: 1.8rem;
+    }
+    
+    label.logged-form-label-checkbox {
+        padding-bottom: 3rem;
+    }
+}

@@ -53,3 +53,13 @@
 .manage-vacancie {
     padding-bottom: 16rem;
 }
+
+@media(max-width: 426px) {
+    .manage-vacancie-actions {
+        flex-direction: column;
+    }
+    
+    a.manage-vacancie-btn {
+        margin-top: 1rem;
+    }
+}
