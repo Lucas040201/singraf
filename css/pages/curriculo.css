@@ -43,3 +43,9 @@ p.curriculum-text {
 .curriculum-content {
     padding: 2rem 0;
 }
+
+@media(max-width: 768px) {
+    p.curriculum-label {
+        max-width: 16rem;
+    }
+}

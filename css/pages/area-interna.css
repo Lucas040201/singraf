@@ -72,6 +72,9 @@ a.area-interna-sair img {
 
 
 @media(max-width: 769px) {
+    .menu-cards-card:not(:nth-child(3n)) {
+        margin-right: 0rem;
+    }
     a.menu-cards-card:not(:nth-child(2n)) {
         margin-right: 3rem;
     }

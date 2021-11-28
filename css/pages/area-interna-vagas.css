@@ -18,11 +18,7 @@
 .search.wrapper {
     display: flex;
     padding-bottom: 15rem;
-}
-
-.side-menu {
-    max-width: 35rem;
-    flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .search-content {
@@ -34,6 +30,8 @@
     padding: 0 2.7rem 4rem 2.7rem;
     background-color: #E4F2FF;
     max-height: 95rem;
+    max-width: 35rem;
+    flex-grow: 1;
 }
 
 .side-menu-title {
@@ -203,4 +201,26 @@ aside.side-menu.candidates {
 
 .opportunity-box {
     padding-bottom: 15rem;
+}
+
+@media(max-width: 500px) {
+    .side-menu {
+        max-width: unset;
+        margin-bottom: 4rem;
+    }
+
+    .search-content {
+        padding: 0;
+    }
+    
+    a.opportunity-apply {
+        max-width: 24rem;
+        font-size: 1.5rem;
+    }
+
+    a.opportunity-complete {
+        font-size: 1rem;
+        display: flex;
+        max-width: 15rem;
+    }
 }
