@@ -105,3 +105,174 @@
 .banco-empregos-vagas-container > span a {
     color: #fff;
 }
+
+/* Cadastro */
+
+.cadastro-banco-empregos {
+    margin: 8.4rem auto 6.3rem;
+}
+
+.cadastro-banco-empregos h3 {
+    font-size: 4.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cadastro-banco-empregos img {
+    margin: 2.85rem auto 4.8rem;
+    display: block;
+}
+
+.cadastro-banco-empregos p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cadastro-banco-empregos > a {
+    max-width: 34.2rem;
+    width: 100%;
+    height: 7.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #FA5B37;
+    margin: 2.9rem auto;
+}
+
+.cadastro-banco-empregos span {
+    font-size: 1.6rem;
+    text-align: center;
+    display: block;
+}
+
+.cadastro-banco-empregos span a {
+    color: #202020;
+}
+
+
+.duvidas-frequentes h4, .cadastro-banco-empregos-formulario h4 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 5.2rem;
+}
+
+.duvidas-frequentes {
+    margin-bottom: 11.8rem;
+}
+
+.duvidas-frequentes .formulario-container:nth-of-type(n+2) {
+    margin-top: 4rem;
+}
+
+.duvidas-frequentes > span {
+    font-size: 1.8rem;
+    color: #FA5B37;
+    text-align: center;
+    display: block;
+    margin-top: 10rem;
+}
+
+.duvidas-frequentes > span a {
+    color: #FA5B37;
+}
+
+
+.cadastro-banco-empregos-formulario form {
+    max-width: 44.5rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20.7rem;
+}
+
+.cadastro-banco-empregos-formulario-empresa form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 2.9rem;
+}
+
+.cadastro-banco-empregos-formulario-empresa h5 {
+    font-size: 1.8rem;
+    color: #FA5B37;
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0 5rem;
+}
+
+.cadastro-banco-empregos-formulario-empresa .input-select {
+    margin-bottom: 3.6rem;
+}
+
+.cadastro-banco-empregos-formulario form > input {
+    margin-bottom: 3.6rem;
+}
+
+.cadastro-banco-empregos-formulario form > input:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.cadastro-banco-empregos-formulario form span {
+    font-size: 1.2rem;
+    margin-bottom: 3.8rem;
+}
+
+.cadastro-banco-empregos-newsletter {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.cadastro-banco-empregos-newsletter input {
+    box-shadow: inset 0 0 0 .1rem #4299E9;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1.7rem;
+}
+
+.cadastro-banco-empregos-enviar {
+    max-width: 43.3rem;
+    width: 100%;
+    height: 7.7rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    background-color: #FA5B37;
+    margin-top: 7.3rem;
+}
+
+.cadastro-banco-empregos-formulario form a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #202020;
+    text-align: center;
+    width: 100%;
+}
+
+/* Inputs */
+
+.cadastro-banco-empregos-formulario .input-half {
+    flex: 1 0 20.8rem;
+    max-width: 20.8rem;
+}
+
+.cadastro-banco-empregos-formulario .input-select-half {
+    flex: 1 0 20.8rem;
+    max-width: 20.8rem;
+}
+
+@media (max-width: 900px) {
+    .cadastro-banco-empregos-formulario .input-half {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+
+    .cadastro-banco-empregos-formulario .input-select-half {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+}
