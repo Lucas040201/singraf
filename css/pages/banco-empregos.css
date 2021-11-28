@@ -1,0 +1,107 @@
+.banco-empregos-home {
+    margin: 7.6rem auto 4.5rem;
+}
+
+.banco-empregos-home h3 {
+    font-size: 3rem;
+    color: #FA5B37;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.banco-empregos-home article {
+    white-space: pre-line;
+}
+
+.banco-empregos-home article p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.banco-empregos-vagas {
+    margin-bottom: 11rem;
+
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.banco-empregos-vagas-candidato {
+    background-image: url(../../images/sides/candidato-bg.png);
+    margin-bottom: 5.1rem;
+}
+
+.banco-empregos-vagas-empresa {
+    background-image: url(../../images/sides/empresa-bg.png);
+}
+
+.banco-empregos-vagas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 47rem;
+}
+
+.banco-empregos-vagas-container h4 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.banco-empregos-vagas-container img {
+    margin: 3.4rem 0 10rem;
+}
+
+.banco-empregos-vagas-container form {
+    max-width: 61.1rem;
+    width: 90%;
+    height: 6.4rem;
+    display: flex;
+}
+
+.banco-empregos-vagas-container form > input {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0 2.2rem;
+    box-shadow: inset 0 0 0 0.1rem #fa5b37;
+}
+
+.banco-empregos-vagas-container form span input {
+    background-color: #FA5B37;
+    width: 5.9rem;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.banco-empregos-vagas-container form span {
+    position: relative;
+}
+
+.banco-empregos-vagas-container form span::after {
+    content: '';
+    background-image: url(/images/icons/search-input.svg);
+    width: 3.2rem;
+    height: 3.2rem;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.banco-empregos-vagas-container > span {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 4.2rem;
+}
+
+.banco-empregos-vagas-container > span a {
+    color: #fff;
+}
